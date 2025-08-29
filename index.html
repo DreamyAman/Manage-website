@@ -18,16 +18,18 @@
   <body>
     <header class="primary-header">
       <div class="container">
-        <a href="#"><img src="assets/img/dark-logo.png" alt="" /></a>
-        <nav>
-          <ul role="list" class="nav-list">
+        <div class="nav-wrapper">
+          <a href="#"><img src="assets/img/dark-logo.png" alt="" /></a>
+        <nav class="primary-navigtaion" >
+          <ul role="list" class="nav-list" id="primary-navigtaion">
             <li><a href="#">Pricng</a></li>
             <li><a href="#">Product</a></li>
             <li><a href="#">About us</a></li>
             <li><a href="#">Careers</a></li>
             <li><a href="#">Community</a></li>
           </ul>
-          <button class="button">Get Started</button>
+          <button class="button display-md-inline-flex" ">Get Started</button>
+        </div>
         </nav>
       </div>
     </header>
@@ -36,7 +38,7 @@
       <section class="padding-block-900">
         <div class="container">
           <div class="even-columns">
-            <div>
+            <div class="flow">
               <h1 class="fs-primary-heading fw-bold">
                 Bring every one to buy products
               </h1>
@@ -56,7 +58,7 @@
       <section class="padding-block-900">
         <div class="container">
           <div class="even-columns">
-            <div>
+            <div class="flow">
               <h1 class="fs-secondary-heading fw-bold">
                 What's Different About Manage?
               </h1>
@@ -68,35 +70,41 @@
               </p>
             </div>
             <div>
-              <ul role="list" class="numbered-items">
+              <ul role="list" class="numbered-items flow">
                 <li>
-                  <h3 class="fs-600 fw-bold">Track company wide progress</h3>
-                  <p>
+                  <div class="flow" style="--flow-spacer:1rem">
+                    <h3 class="fs-600 fw-bold">Track company wide progress</h3>
+                  <p data-width="wide">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Ipsam a laborum est suscipit aliquid, ducimus velit! Nihil
+                    Ipsam a laborum est suscipit aliqud, ducimus velit! Nihil
                     ipsam recusandae ipsum cum assumenda. Aliquam blanditiis
                     dolor consequuntur unde ea molestiae quaerat?
                   </p>
+                  </div>
                 </li>
                 <li>
-                  <h3 class="fs-600 fw-bold">Advance built-in reports</h3>
-                  <p>
+                  <div class="flow" style="--flow-spacer:1rem">
+                    <h3 class="fs-600 fw-bold ">Advance built-in reports</h3>
+                  <p data-width="wide">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Maiores obcaecati asperiores dolor magnam tempore in! Magnam
                     excepturi distinctio sequi. Corporis beatae vitae eum
                     impedit molestias magnam voluptatum repellat aliquam ad.
                   </p>
+                  </div>
                 </li>
                 <li>
-                  <h3 class="fs-600 fw-bold">
+                  <div class="flow" style="--flow-spacer:1rem">
+                    <h3 class="fs-600 fw-bold ">
                     Everything you need in one place
                   </h3>
-                  <p>
+                  <p data-width="wide">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Asperiores soluta sequi expedita odit officia nemo aperiam
                     earum sunt impedit placeat doloremque, quis velit molestias
                     exercitationem vel quidem deserunt, mollitia tenetur.
                   </p>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -104,19 +112,19 @@
         </div>
       </section>
 
-      <section class="padding-block-900 caraousal">
+      <section class="padding-block-900 caraousal flow">
         <h2 class="fs-secondary-heading fw-bold">What they've said</h2>
         <button class="button">Get started</button>
       </section>
 
       <section class="bg-accent-400 text-neutral-100 padding-block-900">
         <div class="container">
-          <div class="even-columns">
-            <div>
+          <div class="even-columns verticel-align-center">
+            <div class="flow">
                 <p class="fs-secondary-heading fw-bold">Simplify how your team works here.</p>
             </div>
-            <div>
-              <button class="button"  >Get Started</button>
+            <div class="justify-self-end">
+              <button class="button" data-type="inverted">Get Started</button>
             </div>
           </div>
         </div>
@@ -126,9 +134,9 @@
     <footer class="bg-neutral-900 text-neutral-100 padding-block-900">
         <div class="container">
             <div class="even-columns">
-                <div>
-                    <a href="#"><img src="" alt=""></a>
-                    <ul role="list">
+                <div class="flow">
+                    <a href="#"><img src="assets/img/dark-logo.png" alt=""></a>
+                    <ul role="list" class="flow">
                         <li><a aria-label="facebook"  href=""></a></li>
                         <li><a aria-label="youtube"  href=""></a></li>
                         <li><a aria-label="twitter"  href=""></a></li>
@@ -137,7 +145,7 @@
                     </ul>
                 </div>
                 <div>
-                    <ul role="list">
+                    <ul role="list" class="flow" style="--flow-spacer:1em">
                         <li><a href="#"></a>Home</li>
                         <li><a href="#"></a>Pricing</li>
                         <li><a href="#"></a>Products</li>
